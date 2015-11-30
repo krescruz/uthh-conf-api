@@ -31,7 +31,7 @@ angular
 	.factory("UthhService", UthhService);
 
 	function UthhService($http){
-		var URL_BASE = "http://localhost:8000/api/";
+		var URL_BASE = "https://uthh-conf-api.herokuapp.com/api/";
 
 		var getEquipos = function(){
 			return $http.get(URL_BASE + 'equipos/');
